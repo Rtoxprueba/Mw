@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resultados de Sensores</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Barra lateral -->
+    <div class="sidebar">
+      <h2>Menú</h2>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Datos</a></li>
+        <li><a href="#">Configuración</a></li>
+      </ul>
+    </div>
+
+    <!-- Contenido principal -->
+    <div class="main-content">
+      <h1>Resultados de los Sensores</h1>
+      <div id="results"></div>
+      <button class="refresh-btn" onclick="fetchResults()">Actualizar Datos</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
